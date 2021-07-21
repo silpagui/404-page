@@ -1,0 +1,11 @@
+@mixin title-font {
+  font-family: "Inconsolata", monospace;
+}
+
+@mixin content-font {
+  font-family: "Space Mono", monospace;
+}
+
+@mixin copyright-font {
+  font-family: "Montserrat", sans-serif;
+}

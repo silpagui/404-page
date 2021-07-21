@@ -1,0 +1,11 @@
+@import "src/assets/scss/variables.scss";
+
+.copyright-text {
+  @include copyright-font;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: $neutral-1-color;
+  text-align: center;
+  padding: 90px 0 42px 0;
+}

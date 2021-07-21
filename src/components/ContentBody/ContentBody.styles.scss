@@ -1,0 +1,19 @@
+@import "src/assets/scss/variables.scss";
+
+.body-title {
+  display: block;
+  @include content-font;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 71px;
+  margin: 0 0 29px 0;
+}
+
+.content-text {
+  display: block;
+  @include content-font;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  margin: 0 0 40px 0;
+}
