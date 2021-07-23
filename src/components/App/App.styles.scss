@@ -1,33 +1,22 @@
 @import "src/assets/scss/variables.scss";
 
-// 1 posible solucion, pero trae problemas, el problema es que si tu contenido excede el alto no hay scroll
-// html,
-// body,
-// #root,
-// .app-wrapper {
-//   height: 100%;
-// }
-// END 1 posible solucion
-
 .app-wrapper {
-  min-height: 100vh; // vh stands for Viewport Height
+  background-color: $base-color;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
 .header {
   height: 40px;
-  background-color: $primary-color;
   padding: 0 0 0 24px;
 }
 
 .main-body {
   flex-grow: 1;
-  background-color: $neutral-0-color;
 }
 
 .main-image {
-  background-color: $primary-dark;
   padding: 60px 0;
 
   .scarecrow-image {
@@ -37,10 +26,8 @@
 }
 
 .main-content {
-  background-color: $primary-color;
   padding: 0 0 0 24px;
 }
 
 .main-footer {
-  background-color: $primary-dark;
 }
