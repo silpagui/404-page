@@ -29,7 +29,7 @@ export function App() {
           />
         </div>
       </main>
-      <footer className="main-footer">
+      <footer>
         <Copyright />
       </footer>
     </div>
