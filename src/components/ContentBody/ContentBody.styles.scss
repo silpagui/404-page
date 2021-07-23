@@ -8,6 +8,7 @@
   line-height: 95px;
   letter-spacing: -0.035em;
   margin: 0 0 36px 0;
+  color: $neutral-2-color;
 }
 
 .content-text {
@@ -19,4 +20,20 @@
   letter-spacing: -0.035em;
   margin: 0 0 64px 0;
   padding: 0 200px 0 0;
+  color: $neutral-4-color;
+}
+
+@media screen and (max-width: 375px) {
+  .body-title {
+    font-size: 48px;
+    line-height: 71px;
+    margin: 0 0 30px 0;
+  }
+
+  .content-text {
+    font-size: 18px;
+    line-height: 26px;
+    padding: 0px;
+    margin: 0 0 66px 0;
+  }
 }
