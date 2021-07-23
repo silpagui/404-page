@@ -3,25 +3,27 @@
 .app-wrapper {
   background-color: $base-color;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  padding: 40px 119px 24px 77px;
 }
 
 .header {
   height: 40px;
-  padding: 0 0 0 24px;
+  margin-bottom: 200px;
 }
 
 .main-body {
-  flex-grow: 1;
+  display: flex;
+  margin: 0 0 308px 0;
 }
 
 .main-image {
-  padding: 60px 0;
+  padding: 0 100px 0 0;
 
   .scarecrow-image {
     display: block;
     margin: 0 auto;
+    width: 100%;
+    height: auto;
   }
 }
 
