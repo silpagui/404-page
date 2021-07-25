@@ -7,7 +7,7 @@ export function ContentBody(props) {
     <div>
       <h2 className="body-title">{props.title}</h2>
       <p className="content-text">{props.contentBody} </p>
-      <Button url="patata" text="Back to homepage" />
+      <Button url="/" text="Back to homepage" />
     </div>
   );
 }
