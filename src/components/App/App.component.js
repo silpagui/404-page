@@ -8,7 +8,7 @@ import ScareCrow from "../../assets/images/scarecrow.png";
 export function App() {
   return (
     <div className="app-wrapper">
-      <header className="header">
+      <header>
         <TitlePage title="404 NOT FOUND" />
       </header>
       <main className="main-body">

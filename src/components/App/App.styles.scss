@@ -1,22 +1,23 @@
 @import "src/assets/scss/variables.scss";
 
 .app-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background-color: $base-color;
   min-height: 100vh;
   padding: 40px 119px 24px 77px;
-}
-
-.header {
-  margin-bottom: 200px;
+  box-sizing: border-box;
 }
 
 .main-body {
   display: flex;
-  margin: 0 0 308px 0;
+  padding: 20px 0;
+  margin: 0 auto;
 }
 
 .main-image {
-  padding: 0 100px 0 0;
+  margin: 0 100px 0 0;
 
   .scarecrow-image {
     display: block;
@@ -24,10 +25,6 @@
     width: 100%;
     height: auto;
   }
-}
-
-.main-content {
-  padding: 0 0 0 24px;
 }
 
 @media screen and (max-width: 375px) {
