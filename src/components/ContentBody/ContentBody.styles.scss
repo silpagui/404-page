@@ -19,21 +19,28 @@
   line-height: 36px;
   letter-spacing: -0.035em;
   margin: 0 0 64px 0;
-  padding: 0 200px 0 0;
+  max-width: 381px;
   color: $neutral-4-color;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 1024px) {
   .body-title {
     font-size: 48px;
     line-height: 71px;
-    margin: 0 0 30px 0;
   }
 
   .content-text {
     font-size: 18px;
     line-height: 26px;
-    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .body-title {
+    margin: 0 0 30px 0;
+  }
+
+  .content-text {
     margin: 0 0 66px 0;
   }
 }
