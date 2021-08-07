@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/404-page/static/css/main.5053c505.chunk.css",
+    "main.js": "/404-page/static/js/main.d931e3f0.chunk.js",
+    "main.js.map": "/404-page/static/js/main.d931e3f0.chunk.js.map",
+    "runtime-main.js": "/404-page/static/js/runtime-main.b7be6d11.js",
+    "runtime-main.js.map": "/404-page/static/js/runtime-main.b7be6d11.js.map",
+    "static/js/2.27158aa3.chunk.js": "/404-page/static/js/2.27158aa3.chunk.js",
+    "static/js/2.27158aa3.chunk.js.map": "/404-page/static/js/2.27158aa3.chunk.js.map",
+    "index.html": "/404-page/index.html",
+    "precache-manifest.a89c4a3e09f037717bd6f888d42a8730.js": "/404-page/precache-manifest.a89c4a3e09f037717bd6f888d42a8730.js",
+    "service-worker.js": "/404-page/service-worker.js",
+    "static/css/main.5053c505.chunk.css.map": "/404-page/static/css/main.5053c505.chunk.css.map",
+    "static/js/2.27158aa3.chunk.js.LICENSE.txt": "/404-page/static/js/2.27158aa3.chunk.js.LICENSE.txt",
+    "static/media/scarecrow.png": "/404-page/static/media/scarecrow.3ea4c985.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b7be6d11.js",
+    "static/js/2.27158aa3.chunk.js",
+    "static/css/main.5053c505.chunk.css",
+    "static/js/main.d931e3f0.chunk.js"
+  ]
+}
