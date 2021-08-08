@@ -1,10 +1,10 @@
 import React from "react";
 import "./Button.styles.scss";
 
-export function Button(props) {
+export function Button({ text, url }) {
   return (
-    <a href={props.url} className="go-back-button">
-      {props.text}
+    <a href={url} className="go-back-button">
+      {text}
     </a>
   );
 }
